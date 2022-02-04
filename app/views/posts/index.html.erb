@@ -4,9 +4,7 @@
 
 <div id="posts">
   <% @posts.each do |post| %>
-    <%= link_to post, :action => 'go' do %>
-      <%= render post %>
-    <% end %>
+    <%= render post %>
   <% end %>
 </div>
 
